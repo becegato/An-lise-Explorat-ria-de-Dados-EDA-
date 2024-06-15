@@ -24,3 +24,32 @@ Identificação de tendências de vendas ao longo do tempo.
 Detecção de padrões sazonais e ciclos de vendas.
 Insights sobre os fatores que mais influenciam as vendas.
 Visualizações que comunicam claramente as descobertas.
+
+Descrição da Base de Dados
+Fonte dos Dados: Kaggle - Retail Analysis with Walmart Data
+
+Descrição dos Dados:
+O conjunto de dados de vendas utilizado para esta análise provém de transações de uma cadeia de lojas de varejo e contém informações detalhadas sobre as vendas em diferentes lojas e departamentos. A base de dados é composta por várias colunas, cada uma fornecendo informações específicas sobre as vendas.
+
+Colunas Principais:
+
+Date (Data): Data da transação, permitindo análises temporais e sazonais.
+Store (Loja): Identificador único para cada loja.
+Dept (Departamento): Identificador único para cada departamento dentro de uma loja.
+Weekly_Sales (Vendas Semanais): Valor total das vendas semanais em dólares para cada loja e departamento.
+IsHoliday (Feriado): Indicador binário que mostra se a semana inclui um feriado, importante para detectar padrões sazonais.
+Tamanho do Conjunto de Dados:
+
+Linhas: Aproximadamente 421.570 registros
+Colunas: 5
+Possíveis Análises:
+
+Tendências Temporais: Análise de como as vendas mudam ao longo do tempo, com foco em tendências semanais, mensais e anuais.
+Padrões Sazonais: Identificação de aumentos ou quedas sazonais nas vendas, especialmente em torno de feriados.
+Desempenho de Lojas: Comparação de vendas entre diferentes lojas e departamentos para identificar os melhores e piores desempenhos.
+Impacto de Feriados: Análise do impacto dos feriados nas vendas.
+Limitações e Considerações:
+
+Dados Ausentes: Alguns registros podem ter valores ausentes que precisam ser tratados adequadamente.
+Fatores Externos: Não inclui fatores externos como campanhas de marketing, condições econômicas, etc., que também podem influenciar as vendas.
+Este conjunto de dados oferece uma rica fonte de informações para a realização de uma análise exploratória detalhada, permitindo insights profundos sobre o comportamento das vendas e possíveis estratégias para melhorar o desempenho das lojas.
